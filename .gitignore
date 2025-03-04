@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Caches
+*.cache
+
+# Python bytecode
+*.pyc
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Black Formatter
+*.bak
+*.swp
+
+# Distribution / packaging
+.Pipfile
+.Pipfile.lock
+dist/
+build/
+eggs/
+*.egg-info/
+
+# Test reports
+*.coverage
+*.coveragerc
+nosetests.xml
+coverage.xml
+*.hypothesis/
+
+# PyCharm
+.idea/
+
+# MacOS Finder
+.DS_Store

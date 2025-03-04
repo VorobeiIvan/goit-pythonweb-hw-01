@@ -4,6 +4,7 @@ import logging
 # Налаштування логування
 logging.basicConfig(level=logging.INFO)
 
+
 class Book:
     def __init__(self, title: str, author: str, year: str) -> None:
         self.title = title

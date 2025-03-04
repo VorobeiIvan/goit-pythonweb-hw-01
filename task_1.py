@@ -4,6 +4,7 @@ import logging
 # Налаштування логування
 logging.basicConfig(level=logging.INFO)
 
+
 class Vehicle(ABC):
     def __init__(self, make: str, model: str) -> None:
         self.make = make
